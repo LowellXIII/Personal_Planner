@@ -1,0 +1,33 @@
+.daily{
+    display:flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+
+.dailyForm{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    align-items: center;
+}
+
+.dailyForm input{
+    width:50%;
+}
+
+.dailyTable{
+    width:50%;
+}
+
+.event{
+    border-color:silver;
+    padding:6.3px;
+    border-style:solid;
+    font-family:monospace;
+    font-weight:bold;
+    justify-content: space-between;
+}
+
+.event:hover{
+    background-color:#D8BFD8;
+}

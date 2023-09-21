@@ -1,0 +1,37 @@
+h1{
+  line-height:5px;
+}
+
+h2{
+  line-height:5px;
+}
+
+.title{
+  display:flex;
+  flex-flow:row nowrap;
+
+  background-color: blueviolet;
+  color:white;
+  justify-content: space-between;
+}
+
+.view button{
+  border-radius: 40%;
+  width:50px;
+  height:50px;
+  padding:10px;
+  margin:10px;
+}
+
+button{
+  background-color: black;
+  color:white;
+  font-weight:bold;
+  font-family:monospace;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color:white;
+  color:black;
+}
